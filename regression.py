@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 import pandas as pd
 from sklearn.linear_model import LinearRegression
-import Werkzeung
+import Werkzeug
 import itsdangerous
 import matplotlib
 import pickle
