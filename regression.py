@@ -3,6 +3,10 @@ import numpy as np
 import joblib
 import pandas as pd
 from sklearn.linear_model import LinearRegression
+import Werkzeung
+import itdangerous
+import matplotlib
+import pickle
 #dataset 
 X= np.array([68.95,80.23,69.47,74.15,68.37,59.99,88.91,66,74.53,69.88,47.64,83.07,69.57,79.52,42.95,63.45,55.39,82.03,54.7,74.58,77.22,84.59,41.49,87.29,41.39,78.74,48.53,51.95,70.2,76.02,67.64,86.41,59.05,55.6,57.64,84.37,62.26,65.82,50.43,38.93,84.98,64.24,82.52,81.38,80.47,37.68,69.62,85.4,44.33,48.01]).reshape((-1, 1))
 
