@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 import pickle
 import itsdangerous
-import Werkzeung
+import Werkzeug
 
 app = Flask(__name__, template_folder='templates')
 @app.route('/')
