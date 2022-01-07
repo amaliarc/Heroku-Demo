@@ -1,1 +1,1 @@
-web: gunicorn regression: app
+web:gunicorn regression:app
