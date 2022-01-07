@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 import Werkzeung
-import itdangerous
+import itsdangerous
 import matplotlib
 import pickle
 #dataset 
