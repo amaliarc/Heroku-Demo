@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Prediksi Banner-Ads</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body style="background-image: url(https://i.pinimg.com/564x/32/02/44/32024441c5ba7ce8fb321059728bb798.jpg);background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100%;">
+
+  <h1>User Klik Banner-Ads</h1>
+ <div class="center">
+      <form action = "http://localhost:5000" method = "POST">
+         <p> Input lama waktu user mengunjungi site (menit) <br><br> <input type = "text" name = "Biayaiklan" /> <input type = "submit" value = "OK" /> </p>
+      </form>
+    
+   <p>Prediksi income klik banner ads adalah:<br> <br>{{ result }}</p>
+  <style>
+    .div2 {
+     width: 500px;
+     height: 100px;  
+     padding: 50px;
+     border: 1px solid black;}
+  </style>
+   </div>
+   </body>
+
+</html>
